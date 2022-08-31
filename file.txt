@@ -1,1 +1,2 @@
 Text pushed from firstScript.sh
+Now I am writing inside the link1
