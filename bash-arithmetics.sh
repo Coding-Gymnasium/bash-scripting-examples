@@ -6,8 +6,8 @@ let a=3 b=7 c=a+b
 
 #------- Add, Substract, Multiply, Divide
 
-num1=10
-num2=2
+# num1=10
+# num2=2
 
 # expr $num1 + $num2
 # expr $num1 - $num2
@@ -45,3 +45,13 @@ num2=2
 # VAR=$((8**2))
 # echo "$VAR"
 
+#------- Mathematical expressions using parenthesis
+
+num1=100
+num2=10
+
+echo "$(($num1 + $num2))"
+echo "$(($num1 - $num2))"
+echo "$(($num1 * $num2))"
+echo "$(($num1 / $num2))"
+echo "$(($num1 % $num2))"
