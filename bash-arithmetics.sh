@@ -50,8 +50,14 @@ let a=3 b=7 c=a+b
 num1=100
 num2=10
 
-echo "$(($num1 + $num2))"
-echo "$(($num1 - $num2))"
-echo "$(($num1 * $num2))"
-echo "$(($num1 / $num2))"
-echo "$(($num1 % $num2))"
+# echo "$(($num1 + $num2))"
+# echo "$(($num1 - $num2))"
+# echo "$(($num1 * $num2))"
+# echo "$(($num1 / $num2))"
+# echo "$(($num1 % $num2))"
+
+# VAR=$((num1 + 10))
+
+VAR=$((3*(2+1)))
+VAR1=$(((2+1)*3))
+echo "var: $VAR, var 1: $VAR1"
